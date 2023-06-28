@@ -201,25 +201,90 @@
     grid-template-columns: 2fr 1.5fr; */
 }
 
-.slideAlone{
-   
-} 
 
-.slideAloneTxt{
-    /* grid-column: 1;
-    background: red; */
-}
+/* SHELF CARD 3 */
 
-.slideAlone .slick-list{
-    /* background: red;
-    width: 100%;
-    grid-column: 2; */
-}
-/* 
-display: flex;
-    justify-content: space-between;
-    background: red;
-    flex-direction: row;
-    height: 100%;
+.shelfalone .slick-list{
+    padding: 40px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 46px 0; */
+}
+
+#shelf-slide-alone{
+    max-width: 1128px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#shelf-slide-alone > img{
+    position: absolute;
+    width: 100%;
+    max-width: 1128px;
+    max-height: 506px;
+    height: 100%;
+    border-radius: 16px;
+    filter: brightness(0.7);
+    
+}
+
+.shelf-txt-slide-alone{
+    width: 60%;
+    padding: 40px;
+}
+
+.shelf-txt-slide-alone h2{
+    padding: 0;
+    width: 410px;
+    font-size: 32px;
+    color: #fff;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+.shelf-txt-slide-alone button{
+    margin-top: 24px;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 16px;
+    background: #FF7020;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.shelf-txt-slide-alone > div{
+    transform: translate(0, 100%);
+}
+
+#shelf-slide-alone .slick-slider{
+    width: 40%;
+}
+
+#shelf-slide-alone .slick-prev{
+    display: block;
+    position: absolute;
+    
+    top: 240px;
+    left: 20px;
+    z-index: 1;
+}
+
+#shelf-slide-alone .slick-next{
+    display: block;
+    position: absolute;
+
+    top: 240px;
+    right: 20px;
+}
+
+.shelfhr{
+    max-width: 1128px;
+    margin: 72px auto;
+    background: #ccc;
+    border: none;
+    height: 1px;
+
+}

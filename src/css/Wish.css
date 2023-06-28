@@ -1,0 +1,86 @@
+.wrapper-breadcrumbs ul{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    padding: 0 56px;
+}
+
+.wrapper-breadcrumbs li{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.wrapper-breadcrumbs li svg{
+    font-weight: 700;
+    font-size: 15px;
+    fill: #ccc;
+}
+
+.wrapper-breadcrumbs li:last-child{
+    font-weight: 700;
+
+}
+
+#geralCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.page-minitxt .favorite{
+    font-size:  16px;
+    color: #FF7020;
+    cursor: pointer;
+}
+
+
+.pagetxt{
+    padding: 0 56px;
+}
+
+.page-minitxt{
+    width: 32%;
+    font-size: 16px;
+}
+
+.no-fav{
+    display: block;
+    text-align: center;
+}
+
+.no-fav h2{
+    width: 494px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+
+.no-fav h3{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    color: #666;
+    font-weight: normal;
+}
+
+.no-fav h3 span{
+    display: flex;
+    align-items: center;
+}
+
+.no-fav a button{
+    margin: 48px auto 72px;
+    padding: 20px;
+    width: 264px;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background: #FF7020;
+}
+
+

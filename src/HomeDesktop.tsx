@@ -11,6 +11,7 @@ import Banner from './GlobalHome/Banner/Banner'
 import ShelfIcons from './GlobalHome/Shelficons/Shelficons'
 import ShelfCards from './GlobalHome/ShelfCards/ShelfCards';
 import ShelfCards2 from './GlobalHome/ShelfCards/ShelfCards2'
+import ShelfCards3 from './GlobalHome/ShelfCards/ShelfCards3'
 
 
 
@@ -25,6 +26,7 @@ const HomeDesktop = () => {
           <ShelfIcons />
           <ShelfCards />
           <ShelfCards2 />
+          <ShelfCards3 />
       </div>
     )
 }
