@@ -1,0 +1,60 @@
+.shelficons{
+    margin-bottom: 64px;
+}
+
+.shelficons .slick-slider{
+    position: relative;
+}
+
+.shelficons .slick-list{
+    max-width: 1150px !important;
+    margin: 0 auto !important;
+    text-align: -webkit-center;
+}
+
+.shelficons .slick-next{
+    display: block;
+    position: absolute;
+    top: -44px;
+    right: 110px;
+    width: 42px;
+    height: 42px;
+}
+
+
+
+
+.shelficons .slick-prev{
+    display: block;
+    position: absolute;
+    top: -44px;
+    right: 165px;
+    width: 42px;
+    height: 42px;
+    left: inherit;
+}
+
+
+
+
+.shelficons h2{
+    margin: 0;
+    padding: 0 56px 32px 56px;
+    max-width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+
+.shelficons a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.shelficons span{
+    font-size: 14px;
+    color: #000;
+}

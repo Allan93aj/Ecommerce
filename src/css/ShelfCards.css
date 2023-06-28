@@ -1,0 +1,225 @@
+.cardShelf{
+    width: 264px;
+    position: relative;
+    
+}
+
+
+.wrapper-cardShelf{
+    border: 1px solid #ccc;
+    height: 414px;
+    border-radius: 16px;
+    position: relative;
+    transition: width 2s;
+    background: #fff;
+}
+
+.wrapper-cardShelf:hover .cardShelf-imgproduct img{
+    transition: 0.2s;
+    width: 60%;
+} 
+
+.cardShelf-imgproduct{
+    padding: 64px 56px 4px 56px;
+}
+
+.cardShelf-imgproduct img{
+    width: 100%;
+}
+
+.cardShelf-nameproduct{
+    padding: 0 24px;
+}
+
+.cardShelf-nameproduct p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    height: 40px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+
+.shelfcards{
+    margin-bottom: 64px;
+}
+
+.shelfcards .slick-slider{
+    position: relative;
+}
+
+.shelfcards .slick-list{
+    max-width: 1150px !important;
+    margin: 0 auto !important;
+    text-align: -webkit-center;
+}
+
+.shelfcards .slick-next{
+    display: block;
+    position: absolute;
+    top: -44px;
+    right: 110px;
+    width: 42px;
+    height: 42px;
+}
+
+.shelfcards .slick-prev{
+    display: block;
+    position: absolute;
+    top: -44px;
+    right: 165px;
+    width: 42px;
+    height: 42px;
+    left: inherit;
+}
+
+.shelfcards h2{
+    margin: 0;
+    padding: 0 56px 32px 56px;
+    max-width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.cardShelf .wish{
+    position: absolute;
+    right: 26px;
+    top: 27px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+.cardShelf .wish button{
+    background: none;
+    border: none;
+}
+
+.favorite{
+    font-size:  24px;
+    color: #FF7020;
+    cursor: pointer;
+}
+
+.nofavorite{
+    font-size:  24px;
+    color: #000;
+    cursor: pointer;
+}
+
+.emptyTag{
+    margin-top:43px;
+}
+
+.allPrices{
+    display: flex;
+    margin: 0 24px 16px;
+    justify-content: flex-start;
+    text-align: left;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    color: #0F0F0E;
+}
+
+.cardShelf .milesPrice{
+    display: none;
+}
+
+.wrapper-cardShelf:hover .milesPrice{
+    display: block;
+}
+
+.cardShelf .milesPrice .priceValueInMilles{
+    color: #FF7020;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.cardShelf .milesPrice .priceValue{
+    color: #FF7020;
+    font-size: 14px;
+}
+
+
+.cardShelf .milesPrice{
+    position: relative;
+    top: 20px;
+    background: #fff;
+}
+
+.cardShelf .milesPrice p,
+.cardShelf .price p{
+    margin: 0;
+}
+
+.cardShelf .price .asFrom,
+.cardShelf .earnMiles{
+    font-size: 14px;
+    color: #666;
+}
+
+.cardShelf .price .priceValueInMilles{
+    color:#663399;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.cardShelf .price .priceValue {
+    font-size: 14px;
+}
+
+.cardShelf .price .priceValue span,
+.cardShelf .milesPrice .ClubOrDiamant{
+    font-size: 14px;
+    color: #663399;
+}
+
+#mainCardShelf{
+    background: red;
+    width: 40% !important;
+}
+
+#wrappersldAlone{
+    /* background-image: url("../../public/shelfsimgs/casafundo.webp");
+    max-width: 1125px;
+    margin: 0 auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 46px;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr; */
+}
+
+.slideAlone{
+   
+} 
+
+.slideAloneTxt{
+    /* grid-column: 1;
+    background: red; */
+}
+
+.slideAlone .slick-list{
+    /* background: red;
+    width: 100%;
+    grid-column: 2; */
+}
+/* 
+display: flex;
+    justify-content: space-between;
+    background: red;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    padding: 46px 0; */

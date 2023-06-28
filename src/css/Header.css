@@ -1,0 +1,168 @@
+.headerUp{
+    padding: 0 16px !important;
+    border-bottom: 1px solid #ccc;
+    height: 104px;
+}
+
+.headerUp .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.left-side{
+    display: flex;
+}
+
+.left-side .wrapper-left-side,
+.right-side .wrapper-right-side{
+    display: flex;
+    align-items: center;
+}
+
+#menu-left,
+#menu-right{
+    display: flex;
+}
+
+.left-side .logo{
+    align-self: center;
+    display: flex;
+}
+
+.left-side nav ul,
+.right-side nav ul{
+    display: inline-flex;
+    gap: 32px;
+    padding-left: 32px;
+    margin: 0;
+    align-items: center;
+}
+
+.left-side li a{
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    
+}
+
+.left-side li.bus span{
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 18px;
+    padding: 0 5px;
+    border-radius: 8px;
+    margin-left: 6px;
+    margin-right: -7px;
+}
+
+.left-side li a span:hover{
+   background: #ccc;
+}
+
+.left-side li a:hover{
+    color:#ccc
+}
+
+.right-side li a{
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#menu-right ul{
+    padding-right: 32px;
+}
+
+#menu-right button{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 0;
+    width: 95px;
+    height: 40px;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    background: none;
+    cursor: pointer;
+}
+
+#menu-right button:hover{
+    background: black;
+    color: #fff;
+}
+
+#menu-right button:hover img{
+    filter: invert(1);
+}
+
+
+
+.headerDown .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 54px;
+}
+
+.headerDown .dropMenu{
+    display: flex;
+    align-items: center;
+    gap:32px
+}
+
+.headerDown .dropMenu p,
+.headerDown .dropMenu img{
+    cursor: pointer;
+}
+
+.headerDown .dropMenu p{
+    font-weight: 700;
+    color: #1E1E1E;
+}
+
+/* .headerDown .dropMenu:hover .btn-drop-rotate{
+    transform: rotate(180deg);
+    transition: 0.3s;
+} */
+
+.headerDown .search{
+    display: flex;
+}
+
+.headerDown .search input{
+    width: 552px;
+    height: 64px;
+    padding: 20px;
+    border-radius: 8px;
+    border:1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+.headerDown .search .btn-search{
+    position: relative;
+    left: -60px;
+    width: 60px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.headerDown .itens{
+    display: flex;
+    align-items: center;
+    gap:21px
+}
+
+.headerDown .itens .wish,
+.headerDown .itens .basket,
+.headerDown .itens .order{
+    cursor: pointer;
+}
