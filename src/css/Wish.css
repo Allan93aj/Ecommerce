@@ -11,6 +11,10 @@
     font-size: 14px;
 }
 
+.wrapper-breadcrumbs li a{
+    color: #000;
+}
+
 .wrapper-breadcrumbs li svg{
     font-weight: 700;
     font-size: 15px;

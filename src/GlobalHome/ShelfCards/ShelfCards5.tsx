@@ -16,7 +16,7 @@ const HomeDesktop = () => {
 
     useEffect(() => {
     const fetchApi = async () => {
-        const url = 'https://api.mercadolibre.com/sites/MLB/search?q=eletro';
+        const url = 'https://api.mercadolibre.com/sites/MLB/search?q=games';
         const response = await fetch(url)
         const objJson = await response.json()
         setData(objJson.results)
@@ -52,21 +52,20 @@ const HomeDesktop = () => {
       <div>          
           <div className='shelfcards'> 
           <div>
-            <h2>Eletrodométicos </h2>
+            <h2>Games </h2>
           </div>
           <Slider {...settings}>
             {
               data.map((e) => (
-                
                 <div key={e.id}>
-                  <div className="cardShelf">
+                   <div className="cardShelf">
               <div className="wish">
               <button onClick={() => handleClick(e)}>
                     {
                       cart.some((itemCart: { id: any }) => itemCart.id === e.id) ? (
                         <MdOutlineFavorite className="favorite"/>
                       ) : (
-                        <MdOutlineFavoriteBorder className="nofavorite"/>
+                        <MdOutlineFavoriteBorder className="nofavorite" />
                       )
                     }
                   </button>
@@ -102,9 +101,8 @@ const HomeDesktop = () => {
                     
                 </a>
               </div>
-                  </div>
+            </div>
                 </div>
-                
               ))
             }
           </Slider>

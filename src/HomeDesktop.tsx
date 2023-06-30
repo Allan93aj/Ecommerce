@@ -12,9 +12,9 @@ import ShelfIcons from './GlobalHome/Shelficons/Shelficons'
 import ShelfCards from './GlobalHome/ShelfCards/ShelfCards';
 import ShelfCards2 from './GlobalHome/ShelfCards/ShelfCards2'
 import ShelfCards3 from './GlobalHome/ShelfCards/ShelfCards3'
-
-
-
+import ShelfCards4 from './GlobalHome/ShelfCards/ShelfCards4'
+import ShelfCards5 from './GlobalHome/ShelfCards/ShelfCards5'
+import ShelfCards6 from './GlobalHome/ShelfCards/ShelfCards6'
 
 
 const HomeDesktop = () => {
@@ -27,6 +27,9 @@ const HomeDesktop = () => {
           <ShelfCards />
           <ShelfCards2 />
           <ShelfCards3 />
+          <ShelfCards4 />
+          <ShelfCards5 />
+          <ShelfCards6 />
       </div>
     )
 }

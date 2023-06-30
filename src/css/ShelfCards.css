@@ -185,24 +185,15 @@
 }
 
 #mainCardShelf{
-    background: red;
     width: 40% !important;
-}
-
-#wrappersldAlone{
-    /* background-image: url("../../public/shelfsimgs/casafundo.webp");
-    max-width: 1125px;
-    margin: 0 auto;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 46px;
-    display: grid;
-    grid-template-columns: 2fr 1.5fr; */
 }
 
 
 /* SHELF CARD 3 */
+
+.shelfalone{
+    margin-bottom: 76px;
+}
 
 .shelfalone .slick-list{
     padding: 40px;
@@ -287,4 +278,159 @@
     border: none;
     height: 1px;
 
+}
+
+/* SHELF CARD 6*/
+
+.shelfcards6{
+    margin: 72px auto;
+    max-width: 1128px;
+    display: flex;
+    gap: 24px;
+    height: 525px;
+}
+
+.shelfCard6-leftside{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper-shelf6-txt{
+    padding: 40px;
+    color: #fff;
+}
+
+.wrapper-shelf6-txt h1{
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -1px;
+    width: 320px;
+    font-size: 32px;
+}
+
+.wrapper-shelf6-txt p{
+    width: 320px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.wrapper-shelf6-txt button{
+    padding: 11px 16px;
+    border-radius: 16px;
+    border: none;
+    background: #FF7020;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+}
+
+.shelfCard6-leftside img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.shelf6-btns{
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.shelf6-btns button{
+    padding: 8px 16px 8px 16px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.shelfCard6-rightsite{
+    width: 50%;
+}
+
+
+
+.cardShelf6{
+    width: 552px;
+    margin: 0 auto 26px;
+    
+}
+
+.wrapper-cardShelf6 {
+    width: 552px;
+    height: 246px;
+}
+
+.wrapper-cardShelf6 .allPrices{
+    height: -webkit-fill-available;
+    margin: 24px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr 75px;
+}
+
+.wrapper-cardShelf6 .wish{
+    grid-column: 3;
+    grid-row: 1;
+    top: 0;
+    right: 0;
+}
+
+.wrapper-cardShelf6 .cardShelf-imgproduct{
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    padding: 0;
+    justify-self: center;
+    align-self: center;
+}
+
+.wrapper-cardShelf6 .cardShelf-nameproduct{
+    grid-column: 2;
+    padding: 0;
+}
+
+.wrapper-cardShelf6 .cardShelf-nameproduct p{
+    text-align: left;
+}
+
+.wrapper-cardShelf6 .milesPrice{
+    display: block;
+    opacity: 0;
+    grid-column: 2;
+}
+
+.wrapper-cardShelf6 .allPrices .price{
+    grid-column: 2;
+} 
+
+.wrapper-cardShelf6:hover .milesPrice{
+    display: block;
+    opacity: 1;
+}
+
+.wrapper-cardShelf6:hover .allPrices .price{
+    top: 15px;
+}
+
+.wrapper-cardShelf6:hover .cardShelf-imgproduct img{
+    width: 100%;
+}
+
+.shelfcards6 .slick-next{
+    transform: rotate(-90deg);
+    display: none !important;
+}
+
+.shelfcards6 .slick-prev{
+    transform: rotate(-90deg);
+    display: none !important;
 }

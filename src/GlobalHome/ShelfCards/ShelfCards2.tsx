@@ -41,7 +41,7 @@ const HomeDesktop = () => {
     const settings = {
       dots: false,
         infinite: true,
-        speed: 500,
+        speed: 200,
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: true,
